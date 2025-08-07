@@ -2,11 +2,6 @@
 
 This repository contains solutions for Week 2 homework assignments in Kotlin, focused on coffee shop management functions for programmers.
 
-# HomeWeek2 - Kotlin Programming Assignment
-
-This repository contains solutions for Week 2 homework assignments in Kotlin, focused on coffee shop management functions for programmers.
-
-
 ## Functions Overview
 
 ### TODO 1: Caffeine Level Calculator (`calculateCaffeineLevel`)
