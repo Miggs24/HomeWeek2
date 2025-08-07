@@ -1,14 +1,19 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+// Main.kt
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
+// Test your coffee shop management skills!
+fun main() {
+    println("☕ WELCOME TO COFFEE & CODE! ☕")
+    println("Serving caffeinated programmers since 2025\n")
+
+    // Test calculateCaffeineLevel
+    println("Dev worked 12 hours, found 8 bugs, feeling zombie:")
+    println("☕ Recommended: ${calculateCaffeineLevel(12, 8, "zombie")}")
+
+    // Test canFulfillOrder
+    val available = listOf("coffee", "milk", "sugar", "vanilla", "wifi")
+    val order = listOf("coffee", "milk", "wifi")
+    println("\n📦 Can fulfill order $order? ${canFulfillOrder(order, available)}")
+
+    // Test createDrinkName
+    println("\n🍺 New drink: '${createDrinkName("NullPointer", "caffeine", "desperation", "prayers")}'")
 }
